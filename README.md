@@ -76,7 +76,12 @@ Use anything with --allow-unrelated-histories:
 Remember USED THIS:
 
     < --allow-unrelated-histories >
+    
+Check branch MERGED:
+    
+    git branch --merged
 
+# OTHER
 How to check log commit:
 
     git log
@@ -86,3 +91,8 @@ How to check log commit:
 Making alias:
     
     alias graph ="git log --all --decorate --online --graph"
+
+Delete branch:
+    
+    git branch -d <BRANCH NAME>
+    
