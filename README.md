@@ -41,7 +41,7 @@ Push in GIT:
 
     git push -u origin <BRANCH NAME>
 
-#MERGE
+# MERGE
 If you want merege 2 branch and allowed incoming files in DEV into TRIAL
 Checkout Branch MASTER OR TRIAL OR STAGGING OR CENTER:
 
