@@ -102,11 +102,13 @@ Making alias:
     
     alias graph ="git log --all --decorate --online --graph"
 
-Delete branch:
+Delete local branch:
     
     git branch -d <BRANCH NAME>
+    OR
+    git branch -D <BRANCH NAME>
     
-Delete local branch:
+Show existing remote url:
     
     git remote show origin
     OR
