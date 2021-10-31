@@ -81,6 +81,8 @@ Check branch MERGED:
     
     git branch --merged
 
+![image](https://user-images.githubusercontent.com/77251566/139561661-2b62076c-b9cd-4f84-a977-b64c5cfba81a.png)
+
 # OTHER
 How to check log commit:
 
