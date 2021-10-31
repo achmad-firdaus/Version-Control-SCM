@@ -86,7 +86,7 @@ How to check log commit:
 
     git log
     OR
-    git log --al --decorate --online --graph
+    git log --all --decorate --oneline --graph
 
 Making alias:
     
