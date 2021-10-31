@@ -106,7 +106,7 @@ Delete branch:
     
     git branch -d <BRANCH NAME>
     
-Delete branch:
+Delete local branch:
     
     git remote show origin
     OR
