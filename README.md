@@ -28,7 +28,15 @@ And you mush commit first:
 And than you remote git URL:
 
     git remote add origin <URL>
+
+Case beacause you already remote branch:
     
+    fatal: remote origin already exists.
+    
+You should set remote, follow this tag:
+
+    git remote set-url origin <URL>
+
 If you want make branch auto checkout:
 
     git branch -M <BRANCH NAME>
@@ -97,4 +105,14 @@ Making alias:
 Delete branch:
     
     git branch -d <BRANCH NAME>
+    
+Delete branch:
+    
+    git remote show origin
+    OR
+    git remote -v
+
+Reference my git in documentation:
+
+* https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
     
