@@ -1,7 +1,7 @@
 # Version-Control-SCM
 This about Source Code Management
 
-I want to make 3 Branch:
+if your place or company not yet used git and than you should to make 3 Branch for compare all source code:
 1.  Production
 2.  Trial
 3.  Development
