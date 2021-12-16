@@ -4,7 +4,7 @@ This about Source Code Management
 List
 - [Referance 👻](#referance-)
 - [GIFS 👻](#gifs-)
-- [GIFS 👻](#shsh-)
+- [GIFS 👻](#items-)
 
 if your place or company not yet used git and than you should to make 3 Branch for compare all source code:
 1.  ![](https://img.shields.io/badge/-Production-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
@@ -118,7 +118,7 @@ Show existing remote url:
     git remote show origin
     OR
     git remote -v
-#### SHSH
+#### ITEMS
 #### GIFS 👻
 #### REFERANCE
 [Documentation](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories) <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
