@@ -1,11 +1,16 @@
 # Version-Control-SCM <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 This about Source Code Management
 
-List
+### List
+- [Introduction 👻](#introduction-)
+- [Merge 👻](#merge-)
+- [Log 👻](#log-)
+- [Alias 👻](#alias-)
+- [Delete 👻](#delete-)
+- [Show 👻](#show-)
 - [Referance 👻](#referance-)
-- [GIFS 👻](#gifs-)
-- [GIFS 👻](#items-)
 
+#### INTRODUCTION 👻
 if your place or company not yet used git and than you should to make 3 Branch for compare all source code:
 1.  ![](https://img.shields.io/badge/-Production-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
 2.  ![](https://img.shields.io/badge/Stag-Trial-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2ba9bc)
@@ -54,7 +59,7 @@ Push in GIT:
 
     git push -u origin <BRANCH NAME>
 
-# MERGE
+#### MERGE 👻
 If you want merege 2 branch and allowed incoming files in DEV into TRIAL <br>
 <br>
 Checkout Branch MASTER OR TRIAL OR STAGGING OR CENTER:
@@ -96,29 +101,31 @@ Check branch MERGED:
 
 ![image](https://user-images.githubusercontent.com/77251566/139561661-2b62076c-b9cd-4f84-a977-b64c5cfba81a.png)
 
-# OTHER
+#### LOG 👻
 How to check log commit:
 
     git log
     OR
     git log --all --decorate --oneline --graph
 
+#### ALIAS 👻
 Making alias:
     
     alias graph ="git log --all --decorate --online --graph"
 
+#### DELETE 👻
 Delete local branch:
     
     git branch -d <BRANCH NAME>
     OR
     git branch -D <BRANCH NAME>
     
+#### SHOW 👻
 Show existing remote url:
     
     git remote show origin
     OR
     git remote -v
-#### ITEMS 👻
-#### GIFS 👻
+
 #### REFERANCE 👻
 [Documentation](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories) <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
