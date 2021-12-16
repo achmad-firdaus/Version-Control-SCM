@@ -118,7 +118,7 @@ Show existing remote url:
     git remote show origin
     OR
     git remote -v
-#### ITEMS
+#### ITEMS 👻
 #### GIFS 👻
-#### REFERANCE
+#### REFERANCE 👻
 [Documentation](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories) <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
