@@ -1,15 +1,19 @@
-# Version-Control-SCM
+# Version-Control-SCM <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 This about Source Code Management
 
+List
+- [Referance](#Reference-)
+
+
 if your place or company not yet used git and than you should to make 3 Branch for compare all source code:
-1.  Production
-2.  Trial
-3.  Development
+1.  ![](https://img.shields.io/badge/-Production-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+2.  ![](https://img.shields.io/badge/Stag-Trial-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2ba9bc)
+3.  ![](https://img.shields.io/badge/-Development-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=bc2b2b)
 
 Why do i have to make it 3 ?
-1.  Production  => Used for website that are currently running
-2.  Trial       => For make merge branch Development into Production
-3.  Development => Used to write code for CR or bug fixes
+1.  ![](https://img.shields.io/badge/-Production-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a) => Used for website that are currently running
+2.  ![](https://img.shields.io/badge/Stag-Trial-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2ba9bc) => For make merge branch Development into Production
+3.  ![](https://img.shields.io/badge/-Development-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=bc2b2b) => Used to write code for CR or bug fixes
 
 For init git folder:
 
@@ -114,7 +118,5 @@ Show existing remote url:
     OR
     git remote -v
 
-Reference my git in documentation:
-
-* https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
-    
+### Reference
+[Documentation](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories) <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
