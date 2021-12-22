@@ -60,6 +60,7 @@ Push in GIT:
     git push -u origin <BRANCH NAME>
 
 #### MERGE 👻
+### OPTION 1 MERGE
 If you want merege 2 branch and allowed incoming files in DEV into TRIAL <br>
 <br>
 Checkout Branch MASTER OR TRIAL OR STAGGING OR CENTER:
@@ -100,6 +101,36 @@ Check branch MERGED:
     git branch --merged
 
 ![image](https://user-images.githubusercontent.com/77251566/139561661-2b62076c-b9cd-4f84-a977-b64c5cfba81a.png)
+
+### OPTION 2 MERGE
+This clone all branch:
+    
+    git clone <URL>
+
+Check all branch:
+    
+    git branch -a or git branch -r
+
+Checkout branch first what you need, for update branch:
+    
+    git checkout <branch name>
+
+Merge:
+    
+    <example position remote in branch master>
+    git merge <target branch name>
+
+And if the conflict and you see it's not too much trouble with the conflict you can reset it first and merge the dominant auto update in the incoming branch/them.
+This sample conflict and not too much trouble:
+![image](https://user-images.githubusercontent.com/77251566/147038638-7de51fa3-b4b1-4f04-8141-73d24a62dd21.png)
+
+Reset MERGE:
+    
+    git reset --merge
+    
+Merge strategy theirs:
+    
+    git merge --strategy-option theirs
 
 #### LOG 👻
 How to check log commit:
