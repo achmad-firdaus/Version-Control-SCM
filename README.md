@@ -27,6 +27,7 @@ For init git folder:
 
 For add all folder and file:
 
+    // remove cache git rm -rf --cached .
     git add .
 
 And you mush commit first:
