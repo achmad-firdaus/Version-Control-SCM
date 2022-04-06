@@ -15,15 +15,20 @@ This about Source Code Management
     docker images   // check images installed
     docker ps   // check run container
     docker ps -a    //check hostory run container stoped
+    
     docker stop [container image/ container name]   // stop run container
+    
     docker container prune  // remove old container
     docker system prune // remove all stoped container
+    
     -d  // run in background
 
 #### MYSQL 👻
 
     sudo docker run --name=[name container] -p [local port]:[docker port] [option] [image]
     sudo docker run --name=MySql -p 33061:3306 -e MYSQL_ROOT_PASSWORD=1  mysql
+    
+    sudo docker exec -it MySql2 mysql -uroot -p // enter in mysql
 
 And you mush commit first:
     
