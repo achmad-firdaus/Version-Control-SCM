@@ -21,7 +21,7 @@ This about Source Code Management
 
 #### MYSQL 👻
 
-    sudo docker run --name=[name container] -p 33061:3306 [option] [image]
+    sudo docker run --name=[name container] -p [local port]:[docker port] [option] [image]
     sudo docker run --name=MySql -p 33061:3306 -e MYSQL_ROOT_PASSWORD=1  mysql
 
 And you mush commit first:
