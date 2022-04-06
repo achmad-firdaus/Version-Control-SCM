@@ -15,6 +15,7 @@ This about Source Code Management
     docker images   // check images installed
     docker ps   // check run container
     docker ps -a    //check hostory run container stoped
+    docker stop [container image/ container name]   // stop run container
     docker container prune  // remove old container
     docker system prune // remove all stoped container
     -d  // run in background
