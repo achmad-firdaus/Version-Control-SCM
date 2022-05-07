@@ -8,6 +8,8 @@ This about Source Code Management
 - [Alias 👻](#alias-)
 - [Delete 👻](#delete-)
 - [Show 👻](#show-)
+- [Set Global User 👻](#set-global-user-)
+- [Clone 👻](#clone-)
 - [Referance 👻](#referance-)
 
 #### INTRODUCTION 👻
@@ -159,5 +161,34 @@ Show existing remote url:
     OR
     git remote -v
 
+#### SET GLOBAL USER 👻
+How to set and check user:
+
+    Set:
+    git config –global user.email “you@example.com” 
+    git config –global user.name “your name”
+    
+    Check:
+    git config –global user.email 
+    git config –global user.name
+    
+#### CLONE 👻
+How to any clone all branch all single:
+
+    Clone all branch:
+    git clone <url>
+    
+    Clone single branch:
+    # clone only the remote primary HEAD (default: origin/master)
+    git clone <url> --single-branch [BRANCH_NAME (IF NOT USE THAN USE DEFAULT BRANCH)]
+    
+    Clone single branch folder:
+    git clone <url> --branch <branch> --single-branch [<folder>]
+    
+#### PERSONAL ACCESS TOKEN 👻
+How use personal access token without password git:
+
+    Login Git -> Setting -> Developer Setting -> Personal Access Tokens
+    
 #### REFERANCE 👻
 [Documentation](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories) <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
