@@ -3,7 +3,8 @@ This about Source Code Management
 
 #### LIST
 - [Introduction 👻](#introduction-)
-- [Merge 👻](#merge-)
+    - This all about all merge 2 way, with strategy "theirs", merge by allow unreleated history, reset merge
+        - [Merge 👻](#merge-)
 - [Log 👻](#log-)
 - [Alias 👻](#alias-)
 - [Delete 👻](#delete-)
