@@ -182,7 +182,7 @@ How to any clone all branch all single:
     
     Clone single branch:
     # clone only the remote primary HEAD (default: origin/master)
-    git clone <url> --single-branch [BRANCH_NAME (IF NOT USE THAN USE DEFAULT BRANCH)]
+    git clone <url> --branch [BRANCH_NAME (IF NOT USE THAN USE DEFAULT BRANCH)] --single-branch
     
     Clone single branch folder:
     git clone <url> --branch <branch> --single-branch [<folder>]
