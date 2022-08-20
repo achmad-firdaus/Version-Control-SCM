@@ -192,5 +192,10 @@ How use personal access token without password git:
 
     Login Git -> Setting -> Developer Setting -> Personal Access Tokens
     
+#### CLONE WITH PERSONAL ACCESS TOKEN 👻
+How use clone with personal access token:
+
+    https://<PERSONAL_ACCESS_TOKEN>:x-oauth-basic@github.com/achmad-firdaus/Version-Control-SCM.git
+    
 #### REFERANCE 👻
 [Documentation](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories) <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
