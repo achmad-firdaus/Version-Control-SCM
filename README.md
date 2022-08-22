@@ -12,6 +12,7 @@ This about Source Code Management
 - [Set Global User 👻](#set-global-user-)
 - [Clone 👻](#clone-)
 - [Personal Access Token 👻](#personal-access-token-)
+- [Clone With Personal Access Token 👻](#clone-with-personal-access-token-)
 - [Referance 👻](#referance-)
 
 #### INTRODUCTION 👻
